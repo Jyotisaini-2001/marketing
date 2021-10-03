@@ -1,0 +1,197 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:  "Montserrat-bold";
+}
+
+
+
+
+
+/* headings */
+.big-heading{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.navbar-nav{
+margin-left: auto;
+
+}
+
+#title{
+  color: lightblue;
+  background-color: #DA0037;
+  text-align: left;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* navgation bar */
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light ';
+
+}
+.navbar{
+
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+
+}
+.na-link{
+
+}
+
+/*download button */
+ .download-button{
+   margin: 5% 2%;
+ }
+
+ /*title- image*/
+ .title-image{
+width: 27%;
+transform: rotate(18deg);
+position: absolute;
+right: 23%;
+
+ }
+
+ /*-- feature -- */
+
+
+#features{
+  margin-bottom: 60px;
+
+  background-color: #fff;
+
+position:relative;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.feature-box{
+
+padding: 4.5%;
+}
+
+
+
+
+
+p{
+  color:#8f8f8f;
+}
+.icon{
+  color: red;
+  margin: 1rem;
+}
+
+.icon:hover{
+  color: orange;
+}
+
+ /* testimonials section */
+#testimonials{
+
+padding: 5%% 14% 4% 14%;
+margin-top: 30px;
+background-color: orange;
+color:  lightblue;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonials-image{
+  width:25%;
+border-radius: 100%;
+margin: 20px;
+
+}
+
+
+#press{
+  background-color: orange;
+
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/*procing section*/
+#pricing{
+padding: 100px;
+
+
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 991px){
+  #title{text-align: center;}
+  .title-image{
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+  }
+}
+
+@media (max-width:1127px) and (min-width:994px){
+  #testimonials{
+    margin-top: 60px;
+      text-align: center;
+  }
+}
+@media (max-width:993px){
+
+  #testimonials{
+    margin-top: 500px;
+    text-align: center;
+  }
+}
+
+#cta{
+background-color: #FF2442;
+}
+.h3{
+
+  color: #fff;
+
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+
+}
+.book{
+  margin: 1% 1%;
+  color: blue;
+  cursor: pointer;
+}
